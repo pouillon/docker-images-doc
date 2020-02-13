@@ -23,9 +23,9 @@ RUN locale-gen C.UTF-8 && update-locale LANG="C.UTF-8"
 RUN echo "a4" >/etc/papersize
 
 # Install any needed packages specified in requirements.txt
-RUN pip3 install --upgrade pip
-RUN pip install --upgrade wheel
-RUN pip install -r requirements.txt
+RUN pip3 install --upgrade pip && \
+  pip install --upgrade wheel && \
+  pip install --upgrade -r requirements.txt
 
 # Define container name
 ENV NAME doc-builder
