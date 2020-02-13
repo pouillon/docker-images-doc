@@ -1,0 +1,8 @@
+lxml
+matplotlib
+numpy
+pygit2
+pyyaml
+scipy
+termcolor
+urllib5
