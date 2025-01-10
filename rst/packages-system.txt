@@ -1,0 +1,13 @@
+apt-transport-https
+ca-certificates
+curl
+git
+gnupg
+gpg-agent
+locales
+openssh-client
+pinentry-tty
+unzip
+wget
+xz-utils
+zip

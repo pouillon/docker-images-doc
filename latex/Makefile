@@ -4,8 +4,8 @@
 
 container_version = 2024.1
 container_registry = pouillon
-container_tag_version = $(container_registry)/doc:debian-$(container_version)
-container_tag_latest = $(container_registry)/doc:debian-latest
+container_tag_version = $(container_registry)/doc-latex:$(container_version)
+container_tag_latest = $(container_registry)/doc-latex:latest
 
 container_srcs = \
   Dockerfile \

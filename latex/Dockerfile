@@ -83,7 +83,7 @@ USER librarian
 ENV HOME /librarian
 
 # Define the container name
-LABEL name="doc-builder-debian"
+LABEL name="doc-latex"
 LABEL version="2024.1"
 LABEL maintainer="Yann Pouillon <devops@materialsevolution.es>"
 

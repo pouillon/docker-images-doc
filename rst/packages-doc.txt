@@ -3,8 +3,6 @@ diffutils
 docbook-utils
 docbook-xml
 docbook-xsl
-doxygen-latex
-latex-make
 libgit2-dev
 patch
 python-is-python3
@@ -49,6 +47,6 @@ python3-sphinxcontrib.trio
 python3-termcolor
 python3-venv
 rst2pdf
-texlive-full
+texlive
 xmltex
 zbar-tools
